@@ -1,0 +1,16 @@
+require_relative './config/environment'
+
+
+puts "Welcome to Authors, Stories, and Catagories..."
+
+
+def reload!
+    load './lib/author.rb'
+    load './lib/catagory.rb'
+    load '.lib/story.rb'
+end
+
+desc "A Console"
+task :console do 
+    Pry.start 
+end
