@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  width: 550px;
+  margin: auto;
+  padding: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.app{
+  width: 550px;
+  height: 1000px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.navigation {
+ border-bottom: 1px;
+ border: black;
+ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+ height: 70px;
+ display: flex;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.gray {
+  color: #918E9B;
+}
+
+.logo{
+  width: 82px;
+  height: 24.35px;
+  margin: 20px;
+}
+
+.main{
+  margin-top: 26px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero_image{
+  width: 395.91px;
+  height: 232px;
+  margin: 70px;
+  max-width: 400px;
+  align-self: center;
+}
+
+.hero-text{
+  text-align: left;
+  width: 75%;
+  margin: 30px;
+}
+
+#hero-header{
+  margin-bottom: 16px;
+  font-size: 36px;
+}
+
+#hero-paragraph{
+  margin-top: 0;
+  font-size: 16px;
+}
+
+.card{
+  height: 235px;
+  width: 176px;
+}
+
+.card--image{
+  height: 235px;
+  width: 176px;
+}
+
+.card {
+  width: 180px;
+  font-size: 12px;
+  flex: 0 0 auto;      
+  display: flex;        
+  flex-direction: column; 
+}
+
+.card--image {
+  width: 100%;
+  border-radius: 9px;
+  margin-bottom: 9px;
+}
+
+/* ADD */
+.card--title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+}
+
+.card--star {
+  height: 14px;
+}
+
+/* ADD */
+.card--price {
+  margin-top: auto;
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+
+
+
